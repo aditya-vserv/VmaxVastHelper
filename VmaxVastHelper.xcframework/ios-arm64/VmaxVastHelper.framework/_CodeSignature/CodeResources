@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/Vmax.framework/Vmax</key>
 		<data>
-		MMNMGErCMNZiCFs1UhBNx2xQYFk=
+		9J/cgPkIb9vuHfa0fNP6qM/A8Kc=
 		</data>
 		<key>Frameworks/Vmax.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/VmaxVastHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		elMh7VLWtc6KL3oxjzR+f0R1n6A=
+		fUt948snOplAPZ0rCt/h+0K6a1k=
 		</data>
 		<key>Modules/VmaxVastHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YUNose9TvM1CBQvUzCbEDxmfn+w=
+		FuHnRGrn9vNmNDR+8dGoahhMM7k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,7 +80,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhOoIvhr3NSZy4DtIaG8eQo9ImXFXZEe07g+pg/tr7o=
+			zaUtYDMDy2NHI6T5w0gNxlRnuvcV1QOinan4mJ8gU6w=
 			</data>
 		</dict>
 		<key>Frameworks/Vmax.framework/_CodeSignature/CodeResources</key>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LmCXlhXNo/ME5PGG/mT2Us+N9JULB3ajbL9ifOB22Nc=
+			mMwuUeFUoqiE5ZlmilIekaywfzLx6mpQe/XhzjSfobE=
 			</data>
 		</dict>
 		<key>Modules/VmaxVastHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DsZl9I+hHi8pq7D6IfyGUocvCkpX+dQTT19MdY1eTAs=
+			T0wE5IydxC95hTec7/BC7oS2D7mH+rP6Ps5h7XSQ77w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

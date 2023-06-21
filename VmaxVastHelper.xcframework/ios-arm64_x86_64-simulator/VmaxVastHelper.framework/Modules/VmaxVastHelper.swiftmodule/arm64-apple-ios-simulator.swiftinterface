@@ -433,8 +433,8 @@ extension VmaxVastHelper.VmaxVastCompanionAd : Swift.Equatable {
   public static func == (lhs: VmaxVastHelper.VmaxVastCompanionAd, rhs: VmaxVastHelper.VmaxVastCompanionAd) -> Swift.Bool
 }
 public struct VmaxVastCreativeLinear {
-  public var skipOffset: Swift.UInt?
-  public var duration: Swift.UInt?
+  public var skipOffset: Swift.Int?
+  public var duration: Swift.Int?
   public var click: VmaxVastHelper.VmaxVastVideoClick?
   public var trackingEvents: [VmaxVastHelper.VmaxTrackerEvent]
   public var mediaFiles: [VmaxVastHelper.VmaxMediaFile]?
