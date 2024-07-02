@@ -6,6 +6,6 @@ framework module VmaxVastHelper {
 }
 
 module VmaxVastHelper.Swift {
-    header "VmaxVastHelper-Swift.h"
-    requires objc
+  header "VmaxVastHelper-Swift.h"
+  requires objc
 }
