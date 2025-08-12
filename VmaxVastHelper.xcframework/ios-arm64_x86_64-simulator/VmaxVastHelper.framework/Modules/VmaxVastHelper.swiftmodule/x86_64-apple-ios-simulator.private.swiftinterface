@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VmaxVastHelper
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VmaxVastHelper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVKit
 import Foundation
 import Swift
@@ -10,11 +10,12 @@ import Vmax
 @_exported import VmaxVastHelper
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public class VmaxVastHelperFactory {
   public init()
   public func get(playerPlugin tracker: Vmax.VmaxTracker) -> VmaxVastHelper.VmaxPlayerPluginTracker?
-  public func get(viewabilityHelper viewability: Vmax.VmaxAdViewability, dictionary: Foundation.NSDictionary?) -> VmaxVastHelper.VmaxViewabilityHelper?
-  public func get(mediaEventManager delegate: VmaxVastHelper.VmaxMediaEventManagerDelegate) -> VmaxVastHelper.VmaxMediaEventManager?
+  public func get(viewabilityHelper viewability: any Vmax.VmaxAdViewability, dictionary: Foundation.NSDictionary?) -> VmaxVastHelper.VmaxViewabilityHelper?
+  public func get(mediaEventManager delegate: any VmaxVastHelper.VmaxMediaEventManagerDelegate) -> VmaxVastHelper.VmaxMediaEventManager?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class VmaxPlayerPluginTracker : Vmax.VmaxMediaEvents {
@@ -120,7 +121,7 @@ public enum VmaxVastTrackingEvents : Swift.String {
 }
 extension VmaxVastHelper.VmaxVastTrackingEvents : Swift.CaseIterable {
   public typealias AllCases = [VmaxVastHelper.VmaxVastTrackingEvents]
-  public static var allCases: [VmaxVastHelper.VmaxVastTrackingEvents] {
+  nonisolated public static var allCases: [VmaxVastHelper.VmaxVastTrackingEvents] {
     get
   }
 }
@@ -208,7 +209,7 @@ public protocol VmaxMediaEventManagerDelegate {
   public func set(vastModel: VmaxVastHelper.VmaxVastModel)
   public func set(adClickBrowser: Vmax.AdClickBrowser)
   public func setCurrent(adModel: VmaxVastHelper.VmaxVastAdModel)
-  public func prepareTrackers(manager: Vmax.VmaxTrackerManager)
+  public func prepareTrackers(manager: any Vmax.VmaxTrackerManager)
   public func set(parentView: UIKit.UIView)
 }
 extension VmaxVastHelper.VmaxMediaEventManager : Vmax.VmaxMediaEvents {

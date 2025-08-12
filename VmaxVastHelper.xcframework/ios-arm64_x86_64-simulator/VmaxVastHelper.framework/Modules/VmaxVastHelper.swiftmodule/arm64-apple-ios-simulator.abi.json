@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VmaxVastHelper",
+    "printedName": "VmaxVastHelper",
     "children": [
       {
         "kind": "Import",
@@ -97,7 +97,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdViewability",
-                "printedName": "Vmax.VmaxAdViewability",
+                "printedName": "any Vmax.VmaxAdViewability",
                 "usr": "s:4Vmax0A13AdViewabilityP"
               },
               {
@@ -146,7 +146,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxMediaEventManagerDelegate",
-                "printedName": "VmaxVastHelper.VmaxMediaEventManagerDelegate",
+                "printedName": "any VmaxVastHelper.VmaxMediaEventManagerDelegate",
                 "usr": "s:14VmaxVastHelper0A25MediaEventManagerDelegateP"
               }
             ],
@@ -166,6 +166,22 @@
         "moduleName": "VmaxVastHelper",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -847,6 +863,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "VmaxMediaEvents",
             "printedName": "VmaxMediaEvents",
             "usr": "s:4Vmax0A11MediaEventsP",
@@ -1003,6 +1033,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -1204,6 +1248,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1364,6 +1422,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -2894,6 +2966,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3832,6 +3918,9 @@
             "moduleName": "VmaxVastHelper",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -3876,6 +3965,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5592,6 +5695,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5795,6 +5912,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6324,6 +6455,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6524,6 +6669,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6678,6 +6837,22 @@
         "moduleName": "VmaxVastHelper",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6777,7 +6952,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxTrackerManager",
-                "printedName": "Vmax.VmaxTrackerManager",
+                "printedName": "any Vmax.VmaxTrackerManager",
                 "usr": "s:4Vmax0A14TrackerManagerP"
               }
             ],
@@ -7552,17 +7727,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "VmaxMediaEvents",
-            "printedName": "VmaxMediaEvents",
-            "usr": "s:4Vmax0A11MediaEventsP",
-            "mangledName": "$s4Vmax0A11MediaEventsP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "VmaxCTAHandlerEvents",
-            "printedName": "VmaxCTAHandlerEvents",
-            "usr": "s:4Vmax0A16CTAHandlerEventsP",
-            "mangledName": "$s4Vmax0A16CTAHandlerEventsP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7612,6 +7787,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxMediaEvents",
+            "printedName": "VmaxMediaEvents",
+            "usr": "s:4Vmax0A11MediaEventsP",
+            "mangledName": "$s4Vmax0A11MediaEventsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxCTAHandlerEvents",
+            "printedName": "VmaxCTAHandlerEvents",
+            "usr": "s:4Vmax0A16CTAHandlerEventsP",
+            "mangledName": "$s4Vmax0A16CTAHandlerEventsP"
           }
         ]
       },
@@ -7936,6 +8125,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -8375,6 +8578,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -8651,6 +8868,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -9090,6 +9321,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -9525,6 +9770,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -9964,6 +10223,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -10289,6 +10562,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -10774,6 +11061,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -11343,6 +11644,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -11668,6 +11983,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -12437,6 +12766,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -13008,6 +13351,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -13333,6 +13690,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -14427,6 +14798,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -14818,6 +15203,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -15501,6 +15900,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -15704,6 +16117,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -17615,6 +18042,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -17787,6 +18228,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18485,6 +18940,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "VmaxMediaEvents",
             "printedName": "VmaxMediaEvents",
             "usr": "s:4Vmax0A11MediaEventsP",
@@ -18771,6 +19240,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -18974,6 +19457,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -19246,265 +19743,6 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
       "kind": "StringLiteral",
-      "offset": 158,
-      "length": 6,
-      "value": "\"VAST\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 180,
-      "length": 4,
-      "value": "\"Ad\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 9,
-      "value": "\"Pricing\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 10,
-      "value": "\"AdSystem\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 13,
-      "value": "\"AdServingId\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 304,
-      "length": 12,
-      "value": "\"Advertiser\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 336,
-      "length": 9,
-      "value": "\"AdTitle\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 12,
-      "value": "\"Impression\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 427,
-      "length": 11,
-      "value": "\"MediaFile\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 459,
-      "length": 10,
-      "value": "\"Tracking\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 488,
-      "length": 8,
-      "value": "\"Linear\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 517,
-      "length": 10,
-      "value": "\"Duration\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 14,
-      "value": "\"ClickThrough\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 592,
-      "length": 15,
-      "value": "\"ClickTracking\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 14,
-      "value": "\"VASTAdTagURI\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 20,
-      "value": "\"JavaScriptResource\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 14,
-      "value": "\"Verification\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 771,
-      "length": 24,
-      "value": "\"VerificationParameters\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 823,
-      "length": 17,
-      "value": "\"AdVerifications\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 12,
-      "value": "\"Extensions\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 905,
-      "length": 11,
-      "value": "\"Extension\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 937,
-      "length": 10,
-      "value": "\"Category\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 969,
-      "length": 11,
-      "value": "\"Creatives\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1001,
-      "length": 10,
-      "value": "\"Creative\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 8,
-      "value": "\"InLine\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1062,
-      "length": 13,
-      "value": "\"VideoClicks\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 14,
-      "value": "\"CompanionAds\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1141,
-      "length": 16,
-      "value": "\"StaticResource\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1179,
-      "length": 11,
-      "value": "\"Companion\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1224,
-      "length": 23,
-      "value": "\"CompanionClickThrough\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1282,
-      "length": 24,
-      "value": "\"CompanionClickTracking\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1326,
-      "length": 9,
-      "value": "\"Wrapper\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1360,
-      "length": 14,
-      "value": "\"HTMLResource\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1399,
-      "length": 14,
-      "value": "\"AdParameters\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1541,
-      "length": 10,
-      "value": "\"xmlns:xs\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
-      "offset": 1680,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastParserNodes.swift",
-      "kind": "StringLiteral",
       "offset": 1541,
       "length": 10,
       "value": "\"xmlns:xs\""
@@ -19522,20 +19760,6 @@
       "offset": 234,
       "length": 11,
       "value": "\"video\/mp4\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxMediaFileSelection\/VmaxMediaFile.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 11,
-      "value": "\"video\/mp4\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxMediaFileSelection\/VmaxMediaFile.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 7,
-      "value": "\"H.264\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxMediaFileSelection\/VmaxMediaFile.swift",
@@ -19566,27 +19790,6 @@
       "value": "\"ClickTracking\""
     },
     {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastTrackingEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 23,
-      "value": "\"CompanionCreativeView\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastTrackingEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 564,
-      "length": 24,
-      "value": "\"CompanionClickTracking\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Models\/VmaxVastTrackingEvents.swift",
-      "kind": "StringLiteral",
-      "offset": 614,
-      "length": 15,
-      "value": "\"ClickTracking\""
-    },
-    {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
       "kind": "IntegerLiteral",
       "offset": 289,
@@ -19851,545 +20054,6 @@
       "offset": 5602,
       "length": 3,
       "value": "902"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 289,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 384,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 508,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 675,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 799,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 921,
-      "length": 3,
-      "value": "202"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1035,
-      "length": 3,
-      "value": "203"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1144,
-      "length": 3,
-      "value": "204"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1271,
-      "length": 3,
-      "value": "205"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1371,
-      "length": 3,
-      "value": "206"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1462,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1735,
-      "length": 3,
-      "value": "301"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1956,
-      "length": 3,
-      "value": "302"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2090,
-      "length": 3,
-      "value": "303"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2225,
-      "length": 3,
-      "value": "304"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2363,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2487,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2578,
-      "length": 3,
-      "value": "402"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2774,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3092,
-      "length": 3,
-      "value": "405"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3214,
-      "length": 3,
-      "value": "406"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3450,
-      "length": 3,
-      "value": "407"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3579,
-      "length": 3,
-      "value": "408"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3721,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3854,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4023,
-      "length": 3,
-      "value": "411"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4119,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4348,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4470,
-      "length": 3,
-      "value": "502"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4608,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4709,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4929,
-      "length": 3,
-      "value": "601"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5038,
-      "length": 3,
-      "value": "602"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5162,
-      "length": 3,
-      "value": "603"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5300,
-      "length": 3,
-      "value": "604"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5394,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5478,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5602,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 289,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 384,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 508,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 675,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 799,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 921,
-      "length": 3,
-      "value": "202"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1035,
-      "length": 3,
-      "value": "203"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1144,
-      "length": 3,
-      "value": "204"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1271,
-      "length": 3,
-      "value": "205"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1371,
-      "length": 3,
-      "value": "206"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1462,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1735,
-      "length": 3,
-      "value": "301"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1956,
-      "length": 3,
-      "value": "302"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2090,
-      "length": 3,
-      "value": "303"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2225,
-      "length": 3,
-      "value": "304"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2363,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2487,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2578,
-      "length": 3,
-      "value": "402"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2774,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3092,
-      "length": 3,
-      "value": "405"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3214,
-      "length": 3,
-      "value": "406"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3450,
-      "length": 3,
-      "value": "407"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3579,
-      "length": 3,
-      "value": "408"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3721,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3854,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4023,
-      "length": 3,
-      "value": "411"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4119,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4348,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4470,
-      "length": 3,
-      "value": "502"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4608,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4709,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4929,
-      "length": 3,
-      "value": "601"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5038,
-      "length": 3,
-      "value": "602"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5162,
-      "length": 3,
-      "value": "603"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5300,
-      "length": 3,
-      "value": "604"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5394,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5478,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5602,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxVastError.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 13,
-      "value": "\"VmaxVastHelper.VmaxVastError\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxMediaFileSelection\/VmaxMediaFileSelection.swift",
@@ -20397,13 +20061,6 @@
       "offset": 578,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxMediaFileSelection\/VmaxMediaFileSelection.swift",
-      "kind": "StringLiteral",
-      "offset": 130,
-      "length": 22,
-      "value": "\"VmaxVastHelper.VmaxMediaFileSelection\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxXmlParser.swift",
@@ -20421,38 +20078,17 @@
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxXmlParser.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 13,
-      "value": "\"VmaxVastHelper.VmaxXmlParser\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxXmlParser.swift",
       "kind": "Dictionary",
-      "offset": 7450,
+      "offset": 7483,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Helpers\/VmaxMediaEventManager.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 21,
-      "value": "\"VmaxVastHelper.VmaxMediaEventManager\""
-    },
-    {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastParser.swift",
       "kind": "StringLiteral",
-      "offset": 155,
+      "offset": 199,
       "length": 21,
       "value": "\"com.vmax.vasthelper\""
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastParser.swift",
-      "kind": "StringLiteral",
-      "offset": 235,
-      "length": 14,
-      "value": "\"VmaxVastHelper.VmaxVastParser\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/Helpers\/VmaxViewabilityHelper.swift",
@@ -20488,69 +20124,6 @@
       "offset": 409,
       "length": 5,
       "value": "99002"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 253,
-      "length": 5,
-      "value": "99000"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 306,
-      "length": 5,
-      "value": "99003"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 5,
-      "value": "99001"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 5,
-      "value": "99002"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 253,
-      "length": 5,
-      "value": "99000"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 306,
-      "length": 5,
-      "value": "99003"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 5,
-      "value": "99001"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 5,
-      "value": "99002"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-vast\/VmaxVastHelper\/VmaxVastHelper\/Source\/VmaxVastError\/VmaxMediaFileError.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 18,
-      "value": "\"VmaxVastHelper.VmaxMediaFileError\""
     }
   ]
 }

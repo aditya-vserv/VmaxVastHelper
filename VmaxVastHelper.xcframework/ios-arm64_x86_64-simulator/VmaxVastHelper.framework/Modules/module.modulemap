@@ -1,7 +1,7 @@
 framework module VmaxVastHelper {
   umbrella header "VmaxVastHelper.h"
-
   export *
+
   module * { export * }
 }
 
