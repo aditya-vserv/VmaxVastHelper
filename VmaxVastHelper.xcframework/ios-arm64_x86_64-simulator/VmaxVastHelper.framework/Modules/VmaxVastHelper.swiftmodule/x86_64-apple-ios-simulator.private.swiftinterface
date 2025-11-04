@@ -19,6 +19,7 @@ public class VmaxVastHelperFactory {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class VmaxPlayerPluginTracker : Vmax.VmaxMediaEvents {
+  public var tracker: Vmax.VmaxTracker
   public func onImpression<T>(info: T?)
   public func onStart<T>(info: T?)
   public func onFirstQuartile<T>(info: T?)
